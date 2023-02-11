@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+body {
+  margin: 0;
+  font-family: 'Roboto',-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Forcefully Style Set */
+.my-color{
+  color: #EF5373 !important;
+}
+
+/* Materiul-UI Style Set */
+.MuiFormHelperText-root{
+  color: #EF5373 !important;
+}
+.MuiAlert-message{
+  overflow-wrap: break-word;
+  width: 22vw;
+}
+
+/* Personal Style */
+.title{
+  font-weight: bold;
+  font-size: 1.2rem
+}
+
+/* Style for Error Alert */
+.boxStyle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400;
+  background-color: #FFF;
+  border: none;
+  box-shadow: 24;
+  padding: 4;
+}
+
+/* Styling for Error Box*/
+.errorBox{
+  position:fixed;
+  width: 30vw !important;
+  right:5px;
+  top:5px;
+  margin:20px 25px 0;
+}
+
+/* Style for PageNotFound */
+.notfound-container {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+/* style for search input */
+.search-input{
+  padding: 4px 10px;
+  font-size: 16px;
+  background-color: #f8f9fa;
+  outline: none;
+  border: none;
+}
+
+/* style for search button */
+.search-button{
+  padding: 4px 10px;
+  background-color: #EF5373;
+  border: none;
+  cursor: pointer;
+}
+
+/* style for logout button */
+.logout-button{
+  padding: 2px 8px;
+  font-size: 14px;
+  background-color: #EF5373;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* style for sidebar */
+.sidebar{
+  height: 100vh;
+  position: fixed;
+}
+
+/* styel for cursor pointer */
+.c-pointer{
+  cursor: pointer;
+}

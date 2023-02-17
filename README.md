@@ -29,3 +29,6 @@ You may also see any lint errors in the console.
 
 ## Assumptions/liberties
 I have completed all the necessary functionality for this assignment. I have not spent much time on creating a high-level UI, instead, I focused more on the functionalities. Please take a look and I have also included a demo video in the Demo folder.
+
+## Updates
+I have included env files for both the client and the server, Now you just need to past your MongoDB URL inside 'server > config > dev.env' and the  run this project.

@@ -31,4 +31,4 @@ You may also see any lint errors in the console.
 I have completed all the necessary functionality for this assignment. I have not spent much time on creating a high-level UI, instead, I focused more on the functionalities. Please take a look and I have also included a demo video in the Demo folder.
 
 ## Updates
-I have included env files for both the client and the server, now you just need to paste your MongoDB URL inside 'server > config > dev.env' and the run this project.
+I enhanced functionality as per the instructions, introduced features, and corrected bugs in the previous version. Also included an updated demo video inside the demo folder for better understanding.

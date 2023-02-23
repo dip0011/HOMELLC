@@ -62,7 +62,7 @@ function Login() {
       <section className="vh-100">
         <div className="container py-5">
           <div className="row d-flex justify-content-center align-items-center h-100">
-            <div className="col-sm-3 col-md-6 col-lg-4">
+            <div className="col-sm-10 col-md-8 col-lg-4">
               <div className="card shadow" style={{ borderRadius: "0.2rem" }}>
                 <div className="card-body p-4 text-center d-flex flex-column align-items-between gap-5">
                   <div className="title">LOGIN</div>
@@ -89,9 +89,12 @@ function Login() {
                       {...register("password")}
                     />
                     <SubmitButton>Login</SubmitButton>
+                    <Link href="/forgotPassword">
+                     Forgot Password?
+                    </Link>
                   </form>
                   <div>-OR-</div>
-                  <Link href="/register" className="p-1">
+                  <Link href="/register" className="pb-1">
                     Register Here
                   </Link>
                 </div>

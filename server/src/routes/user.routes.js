@@ -44,6 +44,34 @@ router.post("/login", async (req, res) => {
   }
 });
 
+router.post("/forgotPassword", async (req, res) => {
+  try {
+    const user = await User.findOne({
+      email: req.body.email,
+      firtName: req.body.firtName,      
+      lastName: req.body.lastName,      
+    });
+
+    if(user){
+      user.password = req.body.password
+      user.save();
+      return res.status(200).send({
+        success: true,
+        message: "Password Changed successfully",
+      });
+    };
+    res.status(400).send({
+      success: false,
+      message: "Unable to change Password, Please try again!",
+    });
+  } catch (error) {
+    res.status(400).send({
+      success: false,
+      message: error.message || "Password Change Failed",
+    });
+  }
+});
+
 router.get("/getAUserProfile", auth, async (req, res) => {
   try {
     const { firstName, lastName} = req.user;

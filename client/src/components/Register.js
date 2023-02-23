@@ -66,7 +66,7 @@ function Register() {
       <section className="vh-100">
         <div className="container py-5">
           <div className="row d-flex justify-content-center align-items-center h-100">
-            <div className="col-sm-3 col-md-8 col-lg-4">
+            <div className="col-sm-10 col-md-8 col-lg-4">
               <div className="card shadow" style={{ borderRadius: "0.2rem" }}>
                 <div className="card-body p-4 text-center d-flex flex-column align-items-between gap-5">
                   <div className="title">REGISTER</div>
@@ -111,7 +111,7 @@ function Register() {
                     <SubmitButton>Sign Up</SubmitButton>
                   </form>
                   <div>-OR-</div>
-                  <Link href="/login" className="p-1">
+                  <Link href="/login" className="pb-1">
                     Login Here
                   </Link>
                 </div>
